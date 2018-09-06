@@ -18,3 +18,5 @@
   <li>An admin page with a list of incoming orders and another with all other orders from clients</li>
 
 </ul>
+
+<p>Access this app by navigating to: <code>https://dennismufasa.github.io/fast-food-fast/</code></p>
