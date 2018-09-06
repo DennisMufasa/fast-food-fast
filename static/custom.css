@@ -69,4 +69,134 @@ footer{
     display: flex;
 }
 
-/* end of login page css */
+/* end of login & signup page css */
+
+
+/* navigation bar*/
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a, .toggle {
+    display: inline-block;
+    padding: 15px 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav li a:hover, .menu:hover .toggle {
+    background-color: skyblue;
+}
+
+.nav .menu {
+    display: inline-block;
+}
+
+.nav .menu .menu-items {
+    display: none;
+    position: fixed;
+    background-color: lightslategrey;
+    min-width: 160px;
+    box-shadow: 0px 10px 20px 0px lightslategrey;
+    z-index: 1;
+}
+
+.nav .menu .menu-items a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.nav  .menu .menu-items a:hover {background-color: skyblue;}
+
+.nav .menu:hover .menu-items {
+    display: block;
+}
+
+/* i used a down arrow instead but the down caret css works fine */
+/* .caret{
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border: solid transparent 5px;
+    border-top-color: black;
+} */
+
+
+/* the rest of the homepage CSS */
+.food-menu{
+    margin: 0, 0, 0, 10px;
+    width: 1000px;
+    height: 1000px;
+}
+
+.square{
+    margin: 10px;
+    float: left;
+    width: 20%;
+    height: 20%;
+    background: wheat;
+    color: red;
+    line-height: 0.5;
+    text-align: center;
+}
+
+.bill-container{
+    text-align: center;
+    display: block;
+}
+
+.bill{
+    margin: 10px;
+    background: lightslategrey;
+    color: green;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#about{
+    background: wheat;
+    height: 700px;
+    line-height: 1.5;
+    
+}
+
+#img{
+    width: 350px;
+    height: 500px;
+}
+#contact{
+    height: 500px;
+    background: wheat;
+    text-align: center;
+    position: relative;
+    line-height: 1.5;
+}
+#contact dl{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* end of home page css */
