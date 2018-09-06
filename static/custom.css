@@ -238,6 +238,13 @@ table#all, th, td{
     height: 100%;
 }
 
-
+/* admin history CSS */
+#history h2{
+    text-decoration-line: underline;
+}
+#history dl{
+    padding-left: 20px;
+    line-height: 1.5; 
+}
 
 
