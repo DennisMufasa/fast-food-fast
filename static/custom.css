@@ -208,10 +208,36 @@ footer{
     height: 1000px;
     position: relative;
 }
-#history h2{
-    text-decoration-line: underline;
+
+/* admin pages CSS */
+
+table#current{
+    width: 100%;
 }
-#history dl{
-    padding-left: 20px;
-    line-height: 1.5; 
+
+table#all{
+    width: 100%;
 }
+
+table#current, th, td{
+    margin-left: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    
+}
+
+table#all, th, td{
+    margin-left: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+#table2{
+    height: 100%;
+}
+
+
+
+
