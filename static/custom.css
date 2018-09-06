@@ -200,3 +200,18 @@ footer{
 }
 
 /* end of home page css */
+
+/* clinet history css */
+.box{
+    background: wheat;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}
+#history h2{
+    text-decoration-line: underline;
+}
+#history dl{
+    padding-left: 20px;
+    line-height: 1.5; 
+}
