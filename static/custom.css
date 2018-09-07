@@ -5,15 +5,17 @@ body, html{
 
 h1{
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Rancho", Arial, sans-serif; */
     font-size: 5vmax;
+        
 }
 
 h2{
-    text-decoration-color: lightcoral;
+    /* text-decoration-color: lightcoral; */
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px; 
+    
 }
 footer{
     margin-left: 45%;
@@ -82,7 +84,8 @@ footer{
     position: fixed;
     top: 0;
     width: 100%;
-    
+    /* font-family: "Tangerine", sans-serif; */
+    font-size: 2vmax;
 }
 
 .nav li {
@@ -213,10 +216,12 @@ footer{
 
 table#current{
     width: 100%;
+    font-family: 'Courgettr', sans-serif;
 }
 
 table#all{
     width: 100%;
+    font-family: 'Courgettr', sans-serif;
 }
 
 table#current, th, td{
