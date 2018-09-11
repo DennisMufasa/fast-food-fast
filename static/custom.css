@@ -69,4 +69,7 @@ footer{
     display: flex;
 }
 
+th, td{
+    padding: 15px;
+}
 /* end of login page css */
