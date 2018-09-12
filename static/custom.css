@@ -141,8 +141,9 @@ footer{
 /* the rest of the homepage CSS */
 .food-menu{
     margin: 0, 0, 0, 10px;
-    width: 1000px;
-    height: 1000px;
+    width: 80%;
+    height: 1500px;
+    display: block;
 }
 
 .square{
@@ -154,7 +155,7 @@ footer{
     color: red;
     line-height: 0.5;
     text-align: center;    
-    
+    display: block;
 }
 
 

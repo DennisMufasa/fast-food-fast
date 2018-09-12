@@ -173,6 +173,7 @@ checkout.addEventListener("click", ()=>{
         display.appendChild(li);
         bill += parseInt(order[key]["cost"]);
         
+        
     }
 
     //displaying total bill
@@ -182,6 +183,7 @@ checkout.addEventListener("click", ()=>{
     li.appendChild(cash);
     display.appendChild(li);
     
+    checkout.disabled = true;  //this prevents users from accidentaly ordering more than one order
 });
 
 //converting the order object into a JSON to send to server
