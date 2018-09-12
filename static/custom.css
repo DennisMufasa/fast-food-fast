@@ -71,6 +71,10 @@ footer{
     display: flex;
 }
 
+th, td{
+    padding: 15px;
+}
+/* end of login page css */
 /* end of login & signup page css */
 
 
@@ -251,5 +255,6 @@ table#all, th, td{
     padding-left: 20px;
     line-height: 1.5; 
 }
+
 
 
