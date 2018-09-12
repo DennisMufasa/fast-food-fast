@@ -71,8 +71,9 @@ footer{
     display: flex;
 }
 
-th, td{
+table, th, td{
     padding: 15px;
+
 }
 /* end of login page css */
 /* end of login & signup page css */
@@ -231,7 +232,7 @@ table#all{
     font-family: 'Courgettr', sans-serif;
 }
 
-table#current, th, td{
+table#current th td{
     margin-left: 20px;
     border: 1px solid black;
     border-collapse: collapse;
@@ -239,7 +240,7 @@ table#current, th, td{
     
 }
 
-table#all, th, td{
+table#all th td{
     margin-left: 20px;
     border: 1px solid black;
     border-collapse: collapse;
