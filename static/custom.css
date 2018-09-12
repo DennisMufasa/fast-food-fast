@@ -23,7 +23,7 @@ footer{
     background: url("../static/images/food1.jpg");
     height: 100%;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
@@ -153,8 +153,10 @@ footer{
     background: wheat;
     color: red;
     line-height: 0.5;
-    text-align: center;
+    text-align: center;    
+    
 }
+
 
 .bill-container{
     text-align: center;
