@@ -1,6 +1,6 @@
 body, html{
     height: 100%;
-    margin: 0;
+    margin: 0 0 0 0;
 }
 
 h1{
@@ -17,8 +17,21 @@ h2{
     padding-left: 15px; 
     
 }
-footer{
-    margin-left: 45%;
+.footer{
+    /* position: fixed;
+    bottom: 0; */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    min-height: 70px;
+    flex-direction: column;
+    }
+
+.footer-content{
+    font-family: 'Courgette', sans-serif;
+    margin-left: 50%;
+    margin: auto;
+    flex: 1;
 }
 
 .bg1{
@@ -28,6 +41,10 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     
+}
+
+.bg2{
+    background: linear-gradient(180deg, #FFCCCC, #CCFFFF);
 }
 
 .container{
@@ -44,6 +61,11 @@ footer{
     margin-left:  auto;   
     margin-right: auto;
     display: flex;
+}
+
+.col{
+    display: flex;
+    
 }
 
 .form{
@@ -63,13 +85,22 @@ footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2vh;
     color: red;
-    margin-left: 500px;
-    
+    float: right;
+    width: 50%;
+    position: relative;  
+    display: block;
 }
 
-.col{
-    display: flex;
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
 }
+
 
 table, th, td{
     padding: 15px;

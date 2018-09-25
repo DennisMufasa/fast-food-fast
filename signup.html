@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../static/custom.css">
+    <link rel="stylesheet" href="static/custom.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine&effect=anaglyph">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette&effect=outline">
 
     <title>signup</title>
 </head>
-<body>
-    <div class="container bg1">
+<body class="bg2 font-effect-outline">
+    <div class="container">
         <h1 style="font-family: 'Tangerine', sans-serif" class="font-effect-anaglyph font-effect-3d-float">Wanna join in the festivities?!</h1>
             <form style="font-family: 'Courgette', sans-serif;" class="form">
                 <fieldset>
@@ -22,7 +22,7 @@
                         <tr>
                             <th>Email: </th>
                             <td>
-                                <input type="email" name="email" placeholder="jon@kfc.com" required>
+                                <input type="email" name="email" placeholder="jon@example.com" required size="40">
                             </td>
                         </tr>
                 
@@ -30,9 +30,25 @@
                             <th>username: </th>
                 
                             <td>
-                                <input type="text" name="name" placeholder="username" required>
+                                <input type="text" name="name" placeholder="pick a username" size="40" required>
                             </td>
                         </tr>
+
+                        <tr>
+                                <th>password: </th>
+                    
+                                <td>
+                                    <input type="password" name="password" placeholder="choose a password" size="40" required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                    <th>Re-enter password: </th>
+                        
+                                    <td>
+                                        <input type="password" name="re-password" placeholder="re-enter password" size="40" required>
+                                    </td>
+                                </tr>
 
                         <tr>
                             <th>phone: </th>
@@ -63,12 +79,19 @@
                 <button>sign up</button>
             </form>
             <p style="font-family: 'Courgette', sans-serif;"><cite><i>-a wise choice...</i></cite></p>
-    </div>     
     
-    <footer>
-        <p>&copy;2018 - mufasa
-            <br> 
-            <cite><em><small>-try not to bite the screen!</small></em></cite></p>
-    </footer>
+            <br>
+            <div class="footer">
+                <hr>
+                <div class="footer-content">
+                        <p>&copy;2018 - mufasa
+                                <br> 
+                                <cite><em><small>-try not to bite the screen!</small></em></cite></p>
+                </div>
+                
+            </div>
+    
+     </div>     
+    
 </body>
 </html>

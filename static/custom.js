@@ -19,6 +19,7 @@ let btn8 = document.querySelector("#btn8");
 let btn9 = document.querySelector("#btn9");
 
 
+
 //costs
 let costs = document.querySelectorAll("span");
 // console.log(costs);
