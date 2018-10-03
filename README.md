@@ -19,4 +19,4 @@
 
 </ul>
 
-<p>Access this app by navigating to this <a href=""https://dennismufasa.github.io/fast-food-fast/>link</a>.</p>
+<p>Access this app by navigating to this <a href="https://dennismufasa.github.io/fast-food-fast/">link</a>.</p>
